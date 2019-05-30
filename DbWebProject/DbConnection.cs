@@ -20,7 +20,7 @@ namespace DbWebProject
         public DbConnection(string dbName)
         {
             this.DbName = dbName;
-            this.connectionString = "server=localhost;database=" + DbName + ";uid=root;pwd=hamedfarahi9223;";
+            this.connectionString = "server=localhost;database=" + DbName + ";uid=root;pwd=********;";
             this.cnn = new MySqlConnection(connectionString);
 
         }
